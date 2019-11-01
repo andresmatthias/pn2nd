@@ -1,12 +1,15 @@
 # pn2nd
 
-Authors: Matthias Andres andres@mathematik.uni-kl.de and Florian Schneider
+Authors: Matthias Andres (andres@mathematik.uni-kl.de) and Florian Schneider
 
 Institution: Technische Universität Kaiserslautern
 
-Article: ...
+Article: The second-order formulation of the PN equations with Marshak boundary conditions
 
-Abstract
+Abstract: We consider a reformulation of the classical PN method with Marshak boundary conditions for the approximation of the monoenergetic stationary linear transport equation as a system of second-order PDEs. 
+Our derivation allows the automatic generation of a model hierarchy which can then be handed to standard PDE tools.
+This method allows for heterogeneous coefficients, irregular grids, anisotropic boundary sources and anisotropic scattering. The wide applicability is demonstrated in several numerical test cases. We  make our implementation available online, which allows for fast prototyping. 
+
 
 This repository contains all codes and files which where used to perform the numerical studies in the article mentioned above and create the corresponding graphics.
 
