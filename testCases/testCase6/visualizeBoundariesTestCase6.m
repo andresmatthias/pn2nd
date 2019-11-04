@@ -1,8 +1,11 @@
 function visualizeBoundariesTestCase6()
 % VISUALIZEBOUNDARIESTESTCASE6 Visualize the boundary IDs for test case 6.
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 
 mesh = load('../../build/testCase6/meshTestCase6_0.mat');

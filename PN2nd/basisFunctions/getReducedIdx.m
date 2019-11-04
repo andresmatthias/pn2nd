@@ -2,8 +2,11 @@ function idxRed = getReducedIdx(l, m, spatialDimension)
 % GETREDUCEDIDX Return indices of those basis functions (real spherical
 %   harmoncis) included after reduction due to symmetry (spatialDimension).
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 
 switch spatialDimension 

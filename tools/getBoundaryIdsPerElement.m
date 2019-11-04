@@ -9,8 +9,11 @@ function boundaryIdsPerElement = getBoundaryIdsPerElement(nr_elements, ...
 %   E.g., T_k = [A, B, C], edge AB is boundary edge with boundaryID XXX,
 %   the other edges are interior edges, then we get [NaN;NaN;XXX].
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 
 fprintf('\nGet boundary edges per element ...\n')

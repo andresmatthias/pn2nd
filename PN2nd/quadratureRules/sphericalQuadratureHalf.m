@@ -16,8 +16,11 @@ function [weights, mu, phi] = sphericalQuadratureHalf(outerNormalVector, maxExac
 %   For a demonstration on how to use this function,
 %   see also SPHERICALQUADRATURETEST
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 
 % Rotate the nodes of the quadrature rule for the upper half with the same

@@ -3,8 +3,11 @@ function [] = systemMatricesDomain2Python(N_PN, spatialDimension, kernelName,...
 % SYSTEMMATRICESDOMAIN2PYTHON Write system matrices for the PDE system of 
 %   the second-order formulation on the domain to Python file.
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 
 printPrecision = 8;

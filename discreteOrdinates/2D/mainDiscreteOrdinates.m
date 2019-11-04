@@ -4,8 +4,11 @@ function [PHI, I, par, A_upwind, rhs_upwind] = mainDiscreteOrdinates(par, mesh, 
 %   Result is interpreted as solution of a problem symmetric along the 
 %   z-axis (i.e., as a 3D solution with dz= 0).
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 
     %% attenuation coefficient

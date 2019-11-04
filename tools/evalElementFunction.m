@@ -2,8 +2,11 @@ function [fAtQueryPoints] = evalElementFunction(f, mesh, queryPoints)
 % EVALELEMENTFUNCTION Evaluate a function, piecewise constant w.r.t. 
 %   elements of a triangular mesh, at given query points.
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 if size(mesh.connectivityList, 1) == 3 && size(mesh.points, 1) == 2 ...
     && size(queryPoints, 1) == 2 && isvector(f) 

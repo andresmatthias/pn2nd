@@ -9,8 +9,11 @@ function [par] = loadTestCase4()
 %   The boundary parameters are stored in different data structures. They
 %   are ordered corresponding to the order of the boundary IDs above.
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 
 %% domain

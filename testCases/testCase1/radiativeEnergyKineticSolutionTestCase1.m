@@ -10,8 +10,11 @@ function radiativeEnergy = radiativeEnergyKineticSolutionTestCase1(...
 %   I(z=0, vx, vy, vz) = S_left(vx, vy, vz)
 %   I(z=1, vx, vy, vz) = S_right(vx, vy, vz) 
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 I = @(z, vx, vy, vz) kineticSolution(z, vx, vy, vz);
 

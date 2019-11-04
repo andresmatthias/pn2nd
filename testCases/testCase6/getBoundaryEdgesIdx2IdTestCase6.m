@@ -2,8 +2,11 @@ function boundaryEdges = getBoundaryEdgesIdx2IdTestCase6(TR, points, edgeList, g
 % GETBOUNDARYEDGESIDX2IDTESTCASE6 Map the index of an edge within its edge
 %   list to the id of the boundary it belongs to.  
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 
 tol = 1e-7;

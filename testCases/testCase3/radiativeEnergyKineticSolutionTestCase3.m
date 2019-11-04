@@ -3,8 +3,11 @@ function radiativeEnergy = radiativeEnergyKineticSolutionTestCase3(zGrid)
 %   the kinetic problem for test case 3 at given grid points and boundary 
 %   sources.
 %
-%See The second-order formulation of the P_N equations with Marshak boundary conditions 
-%Matthias Andres, Florian Schneider
+% For details, see our publication on arXiv:
+% The second-order formulation of the PN equations with Marshak boundary conditions
+% by Matthias Andres and Florian Schneider
+% 1 Nov 2019
+% https://arxiv.org/abs/1911.00468
 %
 I = @(z, vx, vy, vz) vz - z .* (z + 2) / 3 + 2;
 dzI = @(z, vx, vy, vz) - 2 / 3 * z - 2 / 3;
